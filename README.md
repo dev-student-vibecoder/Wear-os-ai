@@ -1,24 +1,51 @@
 # Wear OS AI Assistants
 
-Free and open-source personal AI assistants for Wear OS (Galaxy Watch 4 Classic and similar).
+**Free & Open Source AI for your wrist**
 
-## Projects included
+Personal AI assistants (**Edith**, **Friday**, and **Jarvis**) designed for Wear OS smartwatches, especially round Galaxy Watches.
 
-- **edith-wear** – EDITH assistant
-- **friday-wear** – FRIDAY assistant  
-- **jarvis-wear** – JARVIS assistant
+Just add your own Gemini API key and run them directly on your watch.
 
-## Important
+---
 
-Before building any project, paste your Gemini API key in:
+### Projects Included
 
-`app/src/main/java/com/<name>/wear/ApiConfig.kt`
+| Project       | Description          |
+|---------------|----------------------|
+| **edith-wear**  | EDITH assistant     |
+| **friday-wear** | FRIDAY assistant    |
+| **jarvis-wear** | JARVIS assistant    |
 
-Replace `"PASTE_YOUR_GEMINI_API_KEY_HERE"` with your actual key.
+---
 
-## Free & Open Source
+### How to Use
 
-This is a free project.  
+1. Download the zip of the assistant you want
+2. Open it in Android Studio
+3. Paste your Gemini API key in:
+   `app/src/main/java/com/<name>/wear/ApiConfig.kt`
+4. Build and sideload the APK to your Wear OS watch
+
+---
+
+### Features
+
+- Designed for round Wear OS screens
+- Voice + text input
+- Live search mode (Gemini + Google Search)
+- Clean minimal UI for the wrist
+
+---
+
+### Disclaimer
+
+This project is **not affiliated with, endorsed by, or associated with Marvel, Disney, or any of their subsidiaries** in any way.  
+
+The names “Edith”, “Friday”, and “Jarvis” are used purely as inspiration for personal, fan-made AI assistants. This is an independent, free, and open-source project.
+
+---
+
+### Free & Open Source
+
+This project is completely free.  
 Any improvements, bug fixes, or pull requests are very welcome and highly appreciated!
-This project is not affiliated with, endorsed by, or associated with Marvel, Disney, or any of their subsidiaries in any way.
-The names “Edith”, “Friday”, and “Jarvis” are used purely as inspiration for personal, fan-made AI assistants. This is an independent, free, and open-source project created for educational and personal use only

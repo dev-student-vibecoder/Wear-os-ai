@@ -20,3 +20,5 @@ Replace `"PASTE_YOUR_GEMINI_API_KEY_HERE"` with your actual key.
 
 This is a free project.  
 Any improvements, bug fixes, or pull requests are very welcome and highly appreciated!
+This project is not affiliated with, endorsed by, or associated with Marvel, Disney, or any of their subsidiaries in any way.
+The names “Edith”, “Friday”, and “Jarvis” are used purely as inspiration for personal, fan-made AI assistants. This is an independent, free, and open-source project created for educational and personal use only
